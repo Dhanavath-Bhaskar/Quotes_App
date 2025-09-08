@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "174453334052",
+    "project_id": "qns123",
+    "storage_bucket": "qns123.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174453334052:android:fe3399aab68233ee39b8b1",
+        "android_client_info": {
+          "package_name": "com.example.qns"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBwEg88IPFvyMojX73GMxmnDcysMXArbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

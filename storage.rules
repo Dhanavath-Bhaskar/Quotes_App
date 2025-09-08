@@ -1,0 +1,53 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // Allow each user to upload/view their own shared media (auth only)
+    match /users/{userId}/shared_media/{fileName} {
+      allow read, write: if request.auth != null
+        && request.auth.uid == userId;
+    }
+
+    // Public read-only folder (no auth required for reads)
+    match /public/{allPaths=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // User profile images (auth only)
+    match /profile_images/{userId}/{fileName} {
+      allow read, write: if request.auth != null
+        && request.auth.uid == userId;
+    }
+
+    // Per-user shared media (auth only)
+    match /shared_media/{userId}/{type}/{fileName} {
+      allow read, write: if request.auth != null
+        && request.auth.uid == userId;
+    }
+
+    // Public shared media folders (signed-in users only)
+    match /shared_media/images/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+    match /shared_media/videos/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Quote images (signed-in users only)
+    match /quote_images/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Legacy shared videos (signed-in users only)
+    match /shared_videos/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Catch-all: Deny everything else
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
+

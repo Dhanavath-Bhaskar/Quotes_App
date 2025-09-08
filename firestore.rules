@@ -1,0 +1,67 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // quotes: Any signed-in user can read/write quotes
+    match /quotes/{quoteId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Per-user subtree (favorites, settings, sharedMedia)
+    match /users/{userId} {
+      allow read, write: if request.auth != null
+        && request.auth.uid == userId;
+
+      match /favorites/{favId} {
+        allow create: if request.auth != null
+          && request.auth.uid == userId
+          && request.resource.data.userId == userId;
+        allow read, update, delete: if request.auth != null
+          && request.auth.uid == userId;
+      }
+
+      match /sharedMedia/{mediaId} {
+        allow read, write: if request.auth != null
+          && request.auth.uid == userId;
+      }
+
+      match /settings/{settingsDoc=**} {
+        allow read, write: if request.auth != null
+          && request.auth.uid == userId;
+      }
+    }
+
+    // Any user's sharedMedia can be read by any signed-in user
+    match /{document=**}/sharedMedia/{mediaId} {
+      allow read: if request.auth != null;
+    }
+
+    // Top-level shared_media collection - signed-in users only
+    match /shared_media/{docId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Top-level shared images collection
+    match /shared_images/{docId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+
+    // Top-level shared videos collection
+    match /shared_videos/{docId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+
+    // Meta documents (such as meta/quotes_count)
+    match /meta/{metaId} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    // Deny everything else
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
