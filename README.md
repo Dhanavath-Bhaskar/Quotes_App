@@ -25,17 +25,38 @@
 
 ---
 
-## 📸 Screenshots
+## 📸 App Screenshots
 
-> Place images in `assets/screenshots/`
+## 📸 App Screenshots
 
-### Home Screen
+<div align="center">
 
-![Home Screen](assets/screenshots/home_screen.png)
+<!-- Row 1 -->
+<img src="assets/screenshots/home_screen.png"        alt="Home"                      width="260" />
+<img src="assets/screenshots/favorites_screen.png"   alt="Favorites"                 width="260" />
+<img src="assets/screenshots/fav_screen.png"         alt="Favorite Item"             width="260" />
+<img src="assets/screenshots/favdet_screen.png"      alt="Favorite Detail"           width="260" />
 
-### Quote Detail Screen
+<!-- Row 2 -->
+<img src="assets/screenshots/record_screen.png"      alt="Record (Falling Emojis)"   width="260" />
+<img src="assets/screenshots/videos_screen.png"      alt="Videos"                    width="260" />
+<img src="assets/screenshots/images_screen.png"      alt="Shared Images"             width="260" />
+<img src="assets/screenshots/re_screen.png"          alt="Recorded Preview"          width="260" />
 
-![Quote Detail](assets/screenshots/quote_detail.png)
+<!-- Row 3 -->
+<img src="assets/screenshots/act_screen.png"         alt="Action Category"           width="260" />
+<img src="assets/screenshots/adventure_screen.png"   alt="Adventure Category"        width="260" />
+<img src="assets/screenshots/belief_screen.png"      alt="Belief Category"           width="260" />
+<img src="assets/screenshots/charity_screen.png"     alt="Charity Category"          width="260" />
+
+<!-- Row 4 -->
+<img src="assets/screenshots/beliefvideo_screen.png" alt="Belief Video"              width="260" />
+<img src="assets/screenshots/quodet_screen.png"      alt="Quote Detail (alt)"        width="260" />
+<img src="assets/screenshots/quote_detail.png"       alt="Quote Detail"              width="260" />
+<img src="assets/screenshots/balance.png"            alt="Balance"                   width="260" />
+
+</div>
+
 
 ---
 
