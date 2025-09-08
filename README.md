@@ -20,11 +20,13 @@ Users can view, favorite, and share quotes. This app supports multiple platforms
 
 ---
 
-## Screenshots
+## App Screenshots
 
-![Home Screen](assets/screenshots/home.png)
-![Quote Details](assets/screenshots/details.png)
+### Home Screen
+![Home Screen](assets/screenshots/home_screen.png)
 
+### Quote Detail Screen
+![Quote Detail Screen](assets/screenshots/quote_detail.png)
 
 ---
 
