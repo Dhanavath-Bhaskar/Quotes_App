@@ -1,16 +1,43 @@
-# qns
+# Quotes_App
 
-A new Flutter project.
+A Flutter app for daily inspirational quotes with Firebase integration.  
+Users can view, favorite, and share quotes. This app supports multiple platforms including Android, iOS, and Web.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## **Features**
 
-A few resources to get you started if this is your first Flutter project:
+- Daily quote display
+- Favorite quotes
+- Quote history
+- Author-wise quotes
+- Category-based quotes
+- Share quotes as image
+- Home screen widget support (Android)
+- Scheduled daily quote updates
+- Firebase Cloud Firestore backend
+- Fully open-source and free for commercial use
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## **Screenshots**
+
+*(Add screenshots of your app here for better presentation)*
+
+---
+
+## **Getting Started**
+
+### **Prerequisites**
+
+- Flutter SDK (version 3.13.0 or higher recommended)
+- Android Studio / Xcode / VS Code
+- Git
+
+---
+
+### **Clone the repository**
+
+```bash
+git clone https://github.com/Dhanavath-Bhaskar/Quotes_App.git
+cd Quotes_App
