@@ -25,7 +25,7 @@
 
 ---
 
-## 📸 App Screenshots
+
 
 ## 📸 App Screenshots
 
@@ -270,10 +270,15 @@ assets/
 
 ## 📜 License
 
-* Source code: **MIT** (you can change this)
-* **Important:** Uses **`ffmpeg_kit_flutter_new_gpl`** (GPL).
-  If you **distribute** the app, comply with **GPL** (e.g., provide full source under GPL-compatible terms).
-  Prefer permissive terms? Switch to an **LGPL/min** FFmpegKit variant and adjust features accordingly.
+This repository (current and future versions on the main branch) is licensed under a **Proprietary – No Redistribution** license.  
+You may use and modify the source code **internally** and build **one** compiled product (binary-only distribution) per license.  
+You **may not** resell, sublicense, publish, or redistribute the **source code**.
+
+- **Third-Party Components:** Dependencies remain under their own licenses. See `THIRD_PARTY_NOTICES.md` and comply with those terms.
+- **FFmpegKit Note:** To keep this app proprietary, **do not** use a GPL build. Use a **non-GPL** FFmpegKit package (e.g., `ffmpeg_kit_flutter_min` or `ffmpeg_kit_flutter_full`) and rebuild.
+- **Historical Releases:** Any older tags/releases (if previously published under another license) remain under their original terms.
+
+For full terms, see `LICENSE`.
 
 ---
 
