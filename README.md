@@ -268,17 +268,16 @@ assets/
 
 ---
 
-## 📜 License
+Proprietary License – Daily Q (Quotes_App)
 
-This repository (current and future versions on the main branch) is licensed under a **Proprietary – No Redistribution** license.  
-You may use and modify the source code **internally** and build **one** compiled product (binary-only distribution) per license.  
-You **may not** resell, sublicense, publish, or redistribute the **source code**.
+Copyright (c) 2025 Dhanavath Bhaskar. All rights reserved.
 
-- **Third-Party Components:** Dependencies remain under their own licenses. See `THIRD_PARTY_NOTICES.md` and comply with those terms.
-- **FFmpegKit Note:** To keep this app proprietary, **do not** use a GPL build. Use a **non-GPL** FFmpegKit package (e.g., `ffmpeg_kit_flutter_min` or `ffmpeg_kit_flutter_full`) and rebuild.
-- **Historical Releases:** Any older tags/releases (if previously published under another license) remain under their original terms.
+Permission is granted to view and clone this repository for evaluation only.
+No permission is granted to copy, modify, distribute, sublicense, or use
+this software or its assets in any product without prior written consent.
 
-For full terms, see `LICENSE`.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
 
 ---
 
