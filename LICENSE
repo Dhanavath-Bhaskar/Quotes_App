@@ -1,5 +1,47 @@
-Zero-Clause BSD License
+Proprietary Software License – Quotes_App
 
-Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.
+Copyright (c) 2025 <Your Name or Company>. All rights reserved.
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+1. Grant. Upon payment (if any), Licensor grants Licensee a non-exclusive,
+   non-transferable license to (a) use and modify the source code internally and
+   (b) build and distribute one (1) compiled product (app) owned by Licensee to
+   end users in binary form only.
+
+2. Restrictions. Except as expressly allowed in §1, Licensee shall NOT:
+   - redistribute, publish, sell, sublicense, or disclose the source code;
+   - make the source code available to any third party (including clients);
+   - use the source code to create products or templates for resale to multiple
+     third parties; or
+   - remove or alter copyright, license, or attribution notices.
+
+3. Seats / Scope. Unless otherwise agreed in writing: up to 5 developer seats
+   and one (1) production app ID/bundle ID. Additional seats/apps require
+   additional licenses.
+
+4. Third-Party Components. This software may include or link to third-party
+   components subject to their own licenses (see THIRD_PARTY_NOTICES.md).
+   Licensee must comply with those licenses. No rights to third-party marks
+   are granted.
+
+5. Ownership. Licensor retains all rights, title, and interest in and to the
+   source code and derivatives, except for the limited rights granted here.
+   No implied licenses.
+
+6. Support / Updates. None, unless a separate written agreement states otherwise.
+
+7. Term & Termination. Effective until terminated. Licensor may terminate
+   immediately if Licensee breaches §§2–4. Upon termination, Licensee must
+   cease use and destroy all copies.
+
+8. Warranty Disclaimer. Provided “AS IS,” without warranties of any kind,
+   express or implied, including merchantability, fitness for a particular
+   purpose, and non-infringement.
+
+9. Limitation of Liability. Licensor’s total liability arising out of or
+   related to this license shall not exceed the fees paid (if any). Licensor
+   is not liable for indirect, incidental, special, or consequential damages.
+
+10. Governing Law. This agreement is governed by the laws of <Your Country/State>,
+    excluding conflict-of-laws rules.
+
+(Version 1.0)
